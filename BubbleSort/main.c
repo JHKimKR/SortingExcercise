@@ -29,29 +29,6 @@ int main() {
     
     printf("\n");
     
-    /*
-    for(int index2 = 0; index2 < num; index2++)
-    {
-        for(int index = num-1; index > 0; index--)
-        {
-     
-            if(pbArray[index] < pbArray[index-1])
-            {
-                temp = pbArray[index];
-
-                pbArray[index] = pbArray[index -1];
-
-                pbArray[index-1] = temp;
-
-                
-            }
-            else
-                continue;
-        }
-
-    }
-    */
-    
     
     
     for(int index2 = num-1; index2 > 0; index2--)
